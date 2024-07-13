@@ -50,8 +50,19 @@
   padding: 0.5rem 1rem;
   justify-content: space-between;
 }
-.search-bar>input{
-  border:none;
+.search-bar > input {
+  border: none;
   outline: none;
-
+}
+.secondaryText {
+  color: rgb(140 139 139);
+  font-size: 0.9rem;
+}
+.plusbutton {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.stats{
+  justify-content:space-between ;
 }

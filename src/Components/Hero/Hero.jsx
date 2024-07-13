@@ -1,6 +1,9 @@
 import React from "react";
 import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
+import CountUp from "react-countup/build";
+
+
 export const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -16,23 +19,39 @@ export const Hero = () => {
             </h1>
           </div>
           <div className="flexColStart hero-des">
-            <span>Find a variety that suit you very easily</span>
-            <span>Forget all difficulties in finding residence for you</span>
+            <span className="secondaryText">Find a variety that suit you very easily</span>
+            <span className="secondaryText">Forget all difficulties in finding residence for you</span>
           </div>
 
           <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />
-            <button className="button" placeholder="Search your property" >Search</button>
+            <button className="button" placeholder="Search your property">
+              Search
+            </button>
           </div>
 
-
-          <div className="flexCenter stats">
-            <div className="flexColStart stat">
-              <span>
-                
+          <div className="flexColCenter stats">
+    
+            <div className="flexColCenter stat">
+              <span><CountUp start={8800} end={9000} duration={4}/>
+              <span className="plusbutton">+</span>
               </span>
+              <span className="secondarytext">Premuim Products</span>
             </div>
+
+            <div className="flexColCenter stat">
+              <span><CountUp start={1950} end={2000} duration={4}/>
+              <span className="plusbutton">+</span>
+              </span>
+              <span className="secondarytext">Happy Customers</span>
+            </div>
+            <div className="flexColCenter stat">
+              <span><CountUp end={28} duration={4}/>
+              <span className="plusbutton">+</span>
+              </span>
+              <span className="secondarytext">Happy Customers</span>
+            </div>  
           </div>
         </div>
         {/* Right Side */}
