@@ -13,7 +13,9 @@ const Residencies = () => {
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
         </div>
+
         <Swiper {...sliderSettings}>
+          <SliderButton />
           {data.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="r-card flexColStart">
@@ -35,3 +37,26 @@ const Residencies = () => {
 };
 
 export default Residencies;
+
+//JSX Components
+const SliderButton = () => {
+  const swiper = useSwiper();
+  return (
+    <div className="r-button flexCenter">
+      <button
+        onClick={() => {
+          swiper.slidePrev();
+        }}
+      >
+        &lt;
+      </button>
+      <button
+        onClick={() => {
+          swiper.slideNext();
+        }}
+      >
+        &gt;
+      </button>
+    </div>
+  );
+};

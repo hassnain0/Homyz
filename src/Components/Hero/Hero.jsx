@@ -11,7 +11,7 @@ export const Hero = () => {
         {/* Left Side */}
         <div className="flexColStart hero-left">
           <div className="hero-title">
-            <div className="orange-circle"></div>
+            <div className="orange-circle"/>
             <h1>
               Discover
               <br />
@@ -25,8 +25,8 @@ export const Hero = () => {
 
           <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
-            <input type="text" />
-            <button className="button" placeholder="Search your property">
+            <input type="text" placeholder="Search your property" style={{fontSize:15,fontFamily:"Poppins"}}/>
+            <button className="button" >
               Search
             </button>
           </div>
@@ -50,7 +50,7 @@ export const Hero = () => {
               <span><CountUp end={28} duration={4}/>
               <span className="plusbutton">+</span>
               </span>
-              <span className="secondarytext">Happy Customers</span>
+              <span className="secondarytext">Branches</span>
             </div>  
           </div>
         </div>
