@@ -1,0 +1,27 @@
+.v-container .image-container{
+border:8px,solid rgb(232 232 232/93%);
+
+}
+.v-container>div{
+    flex:1
+}
+.v-right{
+    gap:0.5rem;
+}
+.r-button button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.r-button>:nth-child(1){
+    background-color: #EEEEEF;
+}
+.r-button>:nth-child(2){
+    box-shadow:0px 0px 5px 1px rgba(0,0 0, 0.25 );
+    
+}

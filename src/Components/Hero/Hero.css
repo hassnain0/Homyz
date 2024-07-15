@@ -62,14 +62,14 @@
   color: orange;
   font-size: 1.5rem;
   font-weight: 600;
+  padding-top: 10rem;
 }
-.stats{
-  justify-content:space-around;
+.stats {
+  justify-content: space-around;
   display: flex;
   flex-direction: row;
-  
 }
-.stat{
+.stat {
   justify-content: space-around;
   display: flex;
   padding: 1rem;

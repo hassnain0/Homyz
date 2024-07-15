@@ -4,7 +4,6 @@ import "./Residencies.css";
 import "swiper/css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
-
 const Residencies = () => {
   return (
     <section className="r-wrapper">
@@ -13,18 +12,16 @@ const Residencies = () => {
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
         </div>
-
         <Swiper {...sliderSettings}>
-          <SliderButton />
+          <SliderButton/>
           {data.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="r-card flexColStart">
-                <img src={item.image} alt="home" />
+                <img src={item.image} alt="home"/>
                 <span className="secondaryText r-price">
                   <span style={{ color: "orange" }}>$</span>
                   <span>{item.price}</span>
                 </span>
-
                 <span className="primaryText">{item.name}</span>
                 <span className="primaryText">{item.detail}</span>
               </div>
@@ -35,9 +32,7 @@ const Residencies = () => {
     </section>
   );
 };
-
 export default Residencies;
-
 //JSX Components
 const SliderButton = () => {
   const swiper = useSwiper();
