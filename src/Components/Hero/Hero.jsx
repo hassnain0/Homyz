@@ -35,6 +35,9 @@ export const Hero = () => {
             <button className="button">Search</button>
           </div>
           <div className="flexColCenter stats">
+          
+
+          {/* First Count Up */}
             <div className="flexColCenter stat">
               <span>
                 <CountUp start={8800} end={9000} duration={4} />
@@ -43,6 +46,9 @@ export const Hero = () => {
               <span className="secondarytext">Premium Products</span>
             </div>
 
+          
+          {/* Second Count Up */}
+
             <div className="flexColCenter stat">
               <span>
                 <CountUp start={1950} end={2000} duration={4} />
@@ -50,12 +56,16 @@ export const Hero = () => {
               </span>
               <span className="secondarytext">Happy Customers</span>
             </div>
-            <div className="flexColCenter stat">
+           
+
+           {/* Third Count Up */}
+           
+           <div className="flexColCenter stat">
               <span>
-                <CountUp end={28} duration={4} />
+                <CountUp  end={20} duration={4} />
                 <span className="plusbutton">+</span>
               </span>
-              <span className="secondarytext">Branches</span>
+              <span className="secondarytext"> Branches</span>
             </div>
           </div>
         </div>

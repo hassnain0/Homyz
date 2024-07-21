@@ -29,3 +29,9 @@
   border-radius: 10px;
   align-items: center;
 }
+@media(max-width:768){
+  .g-container{
+    justify-content: center;
+    align-items: center;
+  }
+}
