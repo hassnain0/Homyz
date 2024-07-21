@@ -4,6 +4,8 @@ import "./App.css";
 import Companies from "./Components/Companies/Companies";
 import Residencies from "./Components/Residencies/Residencies";
 import Value from "./Components/Value/Value";
+import { Contact } from "./Components/Contact/Contact";
+import { GetStarted } from "./Components/GetStarted/GetStarted";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Companies />
       <Residencies />
      <Value/>
+     <Contact/>
+     <GetStarted/>
     </div>
   );
 }

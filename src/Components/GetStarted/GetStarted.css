@@ -1,0 +1,31 @@
+.inner-container {
+  gap: 1.5rem;
+  background: #4161df;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.g-container {
+  background-color: #4161df;
+  border-radius: 20px;
+  width: 80%;
+}
+.inner-container .primaryText {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.inner-container .secondaryText {
+  color: rgba(255, 255, 255, 0.587);
+  text-align: center;
+}
+.inner-Container .button {
+  background: #5a73d7;
+  border: 2px solid white;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: center;
+}
