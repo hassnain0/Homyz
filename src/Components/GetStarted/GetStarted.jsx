@@ -15,10 +15,9 @@ export const GetStarted = () => {
           </span>
           <br />
           <button className="button">
-          <a href="mailto:NathanDrakeX@gmail.com">Get Started</a>
-        </button>
+            <a href="mailto:NathanDrakeX@gmail.com">Get Started</a>
+          </button>
         </div>
-        
       </div>
     </section>
   );

@@ -21,7 +21,10 @@ const Footer = () => {
           <span className="secondaryText">145 New york, FL 5471, USA</span>
 
           <div className="flexCenter f-menu">
-            <span>Property</span><span>Service</span><span>Product</span><span>About US</span>
+            <span>Property</span>
+            <span>Service</span>
+            <span>Product</span>
+            <span>About US</span>
           </div>
         </div>
       </div>
